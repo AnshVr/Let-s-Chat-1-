@@ -1,0 +1,84 @@
+html, body
+{
+  height: 100%;
+  background-image:url("https://image.shutterstock.com/image-illustration/dark-purple-aesthetic-dust-closeup-600w-1306665319.jpg");
+	background-size: cover;
+	background-position:center;
+    font-family:'Josefin Slab',serif !important;
+    color:rgb(233, 220, 220) !important;
+}
+
+
+
+
+
+.header
+{
+	color: rgb(230, 215, 215);font-family:'Josefin Slab',serif;font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: rgb(236, 217, 217);font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: rgb(245, 233, 233);
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+
+.message_h4
+{
+	padding-left:5px;color:rgb(230, 217, 217);
+}
+
+img{
+	border-radius: 50px;
+}
+
+h2,h3,h4,h5,h6,input,button,label{
+    font-size:25px !important;
+}
